@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://es.yamaha.com/es/files/Image-main_Drums_1200x480_b0d75d4bfe729b59d0388579e6a0ac2a.jpg) bottom center;
   background-size: cover;
 }
 
@@ -20,7 +20,7 @@ body,html {
 
 .key {
   border: .4rem solid black;
-  border-radius: .5rem;
+  border-radius: 2rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
@@ -28,8 +28,8 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgba(105, 66, 66, 0.4);
+  text-shadow: -1px -1px 0 #000, 0.4px -1px 0 #000, -1px 0.2px 0 #000, 0px 0.5px 0 #000
 }
 
 .playing {
@@ -47,5 +47,7 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #bbafff;
+  font-weight: bold;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px rgb(0, 0, 0); 
 }
